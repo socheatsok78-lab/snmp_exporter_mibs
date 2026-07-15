@@ -3,7 +3,7 @@ variable "SNMP_EXPORTER_VERSION" {
 }
 target "default" {
   args = {
-    "SNMP_EXPORTER_VERSION" = SNMP_EXPORTER_VERSION
+    SNMP_EXPORTER_VERSION = SNMP_EXPORTER_VERSION
   }
   platforms = [ "local" ]
   output = [ "mibs" ]
