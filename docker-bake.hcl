@@ -10,7 +10,6 @@ target "generator" {
   args = {
     "SNMP_EXPORTER_VERSION" = SNMP_EXPORTER_VERSION
   }
-  target = "generator"
   platforms = [ "local" ]
   output = [ "generator" ]
 }
