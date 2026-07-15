@@ -15,7 +15,7 @@ IMPORTS
         TRAP-TYPE
                 FROM RFC-1215
         DisplayString
-                FROM RFC1213-MIB
+                FROM SNMPv2-TC
         OBJECT-TYPE
                 FROM RFC-1212
         enterprises,

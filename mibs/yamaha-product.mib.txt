@@ -1,4 +1,4 @@
--- $Id: yamaha-product.mib.txt,v 1.57 2025/07/25 09:48:44 Tsuyoshi Takazawa Exp $
+-- $Id: yamaha-product.mib.txt,v 1.59 2026/05/28 16:56:33 aoi.shiraishi Exp $
 YAMAHA-PRODUCTS-MIB DEFINITIONS ::= BEGIN
 
 IMPORTS
@@ -83,5 +83,7 @@ rtx3510		OBJECT IDENTIFIER ::= { yamahaProducts 78 }
 wlx322		OBJECT IDENTIFIER ::= { yamahaProducts 79 }
 wlx323		OBJECT IDENTIFIER ::= { yamahaProducts 80 }
 rtx840		OBJECT IDENTIFIER ::= { yamahaProducts 81 }
+wlx232		OBJECT IDENTIFIER ::= { yamahaProducts 82 }
+wlx333		OBJECT IDENTIFIER ::= { yamahaProducts 83 }
 
 END
